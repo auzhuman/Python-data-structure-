@@ -28,8 +28,8 @@ def quicksort(array,s,e):
     array[left] = pivot
        
     
-    # quicksort(array,s,left-1)
-    # quicksort(array,left+1,e)
+    quicksort(array,s,left-1)
+    quicksort(array,left+1,e)
     
 
     return array
